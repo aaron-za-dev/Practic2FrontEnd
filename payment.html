@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceCake! - Crea tu propio Pastel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <body>
+
+        <div class="container">
+
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="./img/logo.PNG" alt="" width="50" height="50">
+                <h2>Finaliza tu compra</h2>
+                <p class="lead">Introduce la informacion requerida para completar tu pedido</p>
+            </div>
+
+            <div class="col-md-12 order-md-1">
+                <h4 class="mb-3">Dirección de envio</h4>
+                <form class="needs-validation">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label>Nombre(s)</label>
+                            <input type="text" class="form-control" placeholder="Jose">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label>Apellido(s)</label>
+                            <input type="text" class="form-control" placeholder="Perez">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label>Correo electronico</label>
+                            <input type="text" class="form-control" placeholder="ejemplo@ejemplo.com">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label>N° telefonico</label>
+                            <input type="text" class="form-control" placeholder="(000) 000 00 00">
+                        </div>
+                    </div>
+
+                    <h4 class="mb-3">Pago</h4>
+
+                    <small class="text-muted">(*En caso de no contar con tarjeta selecciona Efectivo, el cobro se
+                        realizara el momento de la entrega)</small>
+
+                    <div class="d-block my-3">
+                        <div class="custom-control custom-radio">
+                            <input id="credito" name="metodopago" type="radio" class="custom-control-input">
+                            <label class="custom-control-label" for="credito">Tarjeta de credito</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="debito" name="metodopago" type="radio" class="custom-control-input">
+                            <label class="custom-control-label" for="debito">Tarjeta de debito</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="efectivo" name=metodopago" type="radio" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="efectivo">Efectivo</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label>Nombre en el tarjeta</label>
+                            <input type="text" class="form-control" placeholder="Jose Perez">
+                            <small class="text-muted">Nombre tal cual se decribe en el frente de la tarjeta</small>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label>Numero de Tarjeta</label>
+                            <input type="text" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label>Fecha de expiracion</label>
+                            <input type="text" class="form-control" placeholder="MM/YY">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label>CVV</label>
+                            <input type="text" class="form-control" placeholder="XXX">
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <a class="btn btn-primary btn-lg btn-block" href="done.html">Realizar compra</a>
+                </form>
+            </div>
+
+        </div>
+
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2000-2021 SpaceCake.com</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Dieccion xxxx xxxx xxxxx Mexico.</a></li>
+                <li class="list-inline-item"><a href="#">Tel (000) 00 000 000</a></li>
+                <li class="list-inline-item"><a href="#">Horario de 9:00 AM a 7:00 PM de Todos los dias de la semana</a>
+                </li>
+            </ul>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceCake! - Crea tu propio Pastel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <body>
+
+        <div class="container">
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="./img/logo.PNG" alt="" width="100" height="100">
+                <h2>Crea tu propio pastel</h2>
+                <p class="lead">Selecciona los ingredientes que desees para creear tú propio pastel</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 order-md-2 mb-4">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Sabores Disponibles</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Chocolate</h6>
+                                <small class="text-muted">Pan tradicional sabor chocolate</small>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Vainilla</h6>
+                                <small class="text-muted">Pan tradicional sabor vainilla</small>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Cajeta</h6>
+                                <small class="text-muted">Pan tradicional sabor vainilla con paredes cubiertas de
+                                    cajeta</small>
+                            </div>
+                            <span class="text-muted">$10</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Nuez</h6>
+                                <small class="text-muted">Pan tradicional sabor vainilla que incluye trozos de
+                                    nuez</small>
+                            </div>
+                            <span class="text-muted">$15</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Galleta Oreo</h6>
+                                <small class="text-muted">Pan tradicional sabor vainilla que incluye trozos de galletas
+                                    oreo</small>
+                            </div>
+                            <span class="text-muted">$10</span>
+                        </li>
+                    </ul>
+
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Decoradores Disponibles</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Gotas de chocolate</h6>
+                                <small class="text-muted">Enormes gotas de chocolate</small>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Chispas de colores</h6>
+                                <small class="text-muted">Chispas de azucar multicolor</small>
+                            </div>
+                            <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">Frutos rojos</h6>
+                                <small class="text-muted">Variedad de frutos rojos en trozos</small>
+                            </div>
+                            <span class="text-muted">$8</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-8 order-md-1">
+                    <h4 class="mb-3">Selecciona tus ingredientes</h4>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label>Selecciona el sabor de la primera mitad</label>
+                                    <select class="form-control">
+                                        <option value="">Seleccionar...</option>
+                                        <option>Chocolate</option>
+                                        <option>Vainilla</option>
+                                        <option>Cajeta</option>
+                                        <option>Nuez</option>
+                                        <option>Galleta Oreo</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label>Selecciona el sabor de la segunda mitad</label>
+                                    <select class="form-control">
+                                        <option value="">Seleccionar...</option>
+                                        <option>Chocolate</option>
+                                        <option>Vainilla</option>
+                                        <option>Cajeta</option>
+                                        <option>Nuez</option>
+                                        <option>Galleta Oreo</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Selecciona los decoradores a tu gusto</label><br>
+                            <small class="text-muted">(*Presiona la tecla CTRL en tú teclado para seleccionar varios
+                                elementos)</small>
+                            <select multiple class="form-control">
+                                <option>Gotas de chocolate</option>
+                                <option>Chispas de colores</option>
+                                <option>Frutos rojos</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="country">Tamaño</label>
+                                <select class="custom-select d-block w-100">
+                                    <option value="">Seleccionar...</option>
+                                    <option>Individual (1 persona)</option>
+                                    <option>Pequeño (5 personas)</option>
+                                    <option>Mediano (10 personas)</option>
+                                    <option>Grandre (15 personas)</option>
+                                    <option>Extragrande (> 20 personas)</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label>Mensaje personalizado</label>
+                                <small class="text-muted">(opcional)</small>
+                                <input type="text" class="form-control" placeholder="Feliz cumpleaños">
+                            </div>
+                        </div>
+
+                        <hr class="mb-4">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="check1">
+                            <label class="custom-control-label" for="check1">Incluir vela de cumpleaños</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="check2">
+                            <label class="custom-control-label" for="check2">Inluir caja decorativa</label>
+                        </div>
+                        <hr class="mb-4">
+
+                        <a class="btn btn-primary btn-lg btn-block" href="payment.html">Pagar</a>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    </body>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2000-2021 SpaceCake.com</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Dieccion xxxx xxxx xxxxx Mexico.</a></li>
+            <li class="list-inline-item"><a href="#">Tel (000) 00 000 000</a></li>
+            <li class="list-inline-item"><a href="#">Horario de 9:00 AM a 7:00 PM de Todos los dias de la semana</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
